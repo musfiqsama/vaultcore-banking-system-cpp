@@ -1,111 +1,65 @@
 # 💳 VaultCore Banking System
 
-A complete **Console-Based Banking Management System** built in **C++**.  
-This project simulates real-world banking operations including account management, transactions, loans, deposits, and security features.
+A premium **console-based banking management system** built using **C++**, designed to simulate real-world banking operations with advanced features like transactions, loans, security, and data management.
 
 ---
 
 ## 🚀 Features
 
-### 🔐 Authentication
-- Admin Login system
-- Customer Login using Account Number & PIN
-- Account auto-block after 3 failed login attempts
+### 🔐 Authentication System
+- Admin & Customer login
+- Secure PIN verification
+- Auto account lock after multiple failed attempts
 
 ### 👤 Account Management
-- Open New Account
-- View All Accounts (Admin)
-- Search Account by number or name
-- Update Customer Profile
-- Block / Unblock / Close Account
+- Create new accounts
+- View & search accounts
+- Update customer profile
+- Block / Unblock / Close accounts
 
-### 💰 Transactions
-- Deposit Money
-- Withdraw Money (with PIN verification)
-- Money Transfer between accounts
-- Transaction history
-- Mini statement (last 5 transactions)
-- Receipt generation after each transaction
+### 💰 Transaction System
+- Deposit & Withdraw money
+- Fund transfer between accounts
+- Transaction history & mini statement
+- Auto receipt generation
 
-### 📊 Banking Operations
-- Balance check
-- Full statement generation (file output)
-- Interest calculation
-
-### 🏦 Advanced Features
+### 🏦 Banking Services
 - Loan system (Apply & Admin Approval)
 - Fixed Deposit (FD)
 - Recurring Deposit (RD)
-- Bill payment (Electricity, Water, Internet, Mobile)
-- ATM Simulation (Fast Cash, Balance, Mini Statement)
+- Bill payment system
+- ATM simulation (Fast Cash, Balance Check)
 
-### 🛡️ Security & Logs
-- Fraud detection for large transactions
-- Login attempt tracking
-- PIN attempt tracking
-- Audit log system
-
-### 💾 Data Management
-- File-based data storage
-- Backup & Restore system
-- Persistent data across runs
+### 🛡️ Security & Data Management
+- Fraud detection (large transactions alert)
+- Login & activity logs (audit system)
+- File-based persistent storage
+- Backup & restore functionality
 
 ---
 
-## 🧠 System Architecture
-
-- **BankSystem Class** → Core system logic
-- **FileManager Class** → File operations (load, save, backup, restore)
-- **Models (Structs)** → Data structures for:
-  - Account
-  - Transaction
-  - Loan
-  - Fixed Deposit
-  - Recurring Deposit
-  - Bill Payment
+## 🛠️ Technologies Used
+- C++
+- Object-Oriented Programming (OOP)
+- File Handling
+- Code::Blocks
 
 ---
 
-## 📂 Project Structure
-
-VaultCoreBankingSystem/
-│
-├── main.cpp
-├── bank_system.cpp
-├── bank_system.h
-├── file_manager.cpp
-├── file_manager.h
-├── models.h
-├── accounts.txt
-├── transactions.txt
-├── loans.txt
-├── logs.txt
-
-
+## 🔑 Admin Login
+- **Username:** admin  
+- **Password:** admin123  
 
 ---
 
 ## ▶️ How to Run
 
-### 🔧 Compile
+### Using Code::Blocks
+1. Open the project in **Code::Blocks**
+2. Add all `.cpp` and `.h` files
+3. Build & Run
+
+### Using Terminal
 ```bash
 g++ main.cpp bank_system.cpp file_manager.cpp -o bank
-
 ./bank
-
-Username: admin
-Password: admin123
-
-
-
----
-
-If you want next level polish, I can also:
-- 🔥 Add badges (GitHub style)
-- 🎨 Create banner image
-- 📸 Add demo screenshots section
-
-Just tell me 👍
-
-
-
